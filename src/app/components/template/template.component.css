@@ -1,0 +1,240 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* :root {
+
+} */
+
+/* reset */
+h1, h2, h3, h4, p, span {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+
+}
+
+
+.main_container {
+  margin: 0 !important ;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  background: #313b47;
+}
+
+
+.template_container {
+  /* min-width: 595px; */
+  /* min-height: 842px; */
+  /* max-width: 1240px; */
+  /* max-height: 1754px; */
+  /* width: 595px; */
+  /* height: 842px; */
+  width: 945px;
+  height: 1337px;
+  background: #fff;
+  margin: 0 auto !important;
+
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.personal_info_container .personal_info_section1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  place-items: center;
+  grid-column-gap: 25px;
+  padding: 40px 40px 30px 40px !important;
+  /* background: #f0f0f0; */
+}
+
+.personal_info_section1 .name {
+  font-size: 36px;
+  font-weight: 400;
+  color: rgb(24, 24, 24);
+}
+.personal_info_section1 .designation {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+}
+.personal_info_section1 .objective {
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(41, 41, 41);
+  padding-top: 5px !important;
+}
+
+.profile_photo {
+  width: 125px;
+  height: 125px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 50%;
+  background: url("../../../assets/images/Arsad - My Profile Photo2.1.0.png");
+  background-repeat: no-repeat;
+  background-position: center -2px;
+  background-size: 102%;
+  /* overflow: hidden; */
+}
+/* .profile_photo img {
+  width: 120px;
+  height: auto;
+} */
+
+
+
+.personal_info_container .personal_info_section2 {
+  background: #f1f1f1;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: 54% auto;
+  padding-top: 15px;
+}
+
+.personal_info_section2 .contact_list {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color:rgb(41, 41, 41);
+
+}
+
+.contact_list .icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 10px;
+  color: #313c4e;
+  padding-top: 8px !important;
+}
+.contact_list .icons i {
+  padding-bottom: 18px !important;
+}
+.contact_list .links p {
+  padding-bottom: 10px !important;
+}
+
+.contact_list .links p a {
+  text-decoration: none;
+  color:rgb(41, 41, 41);
+}
+
+
+.other_info_container {
+  display: grid;
+  grid-template-columns: 46% auto;
+  padding: 10px 40px !important;
+  column-gap: 40px;
+}
+
+.x_space {
+  padding-top: 10px !important;
+}
+
+.subject_title {
+  text-transform: uppercase;
+  color: #313c4e;
+  /* padding-bottom: 5px; */
+  font-size: 23px;
+  padding-top: 20px !important;
+}
+
+/* .other_info_container .other_info_left {
+
+}
+.other_info_container .other_info_right {
+
+} */
+
+.subject_info {
+  color: #2e2e2e;
+  font-size: 20px;
+  padding-top: 8px !important;
+}
+.subject_info2 {
+  color: #2e2e2e;
+  font-size: 20px;
+}
+
+.subject_info3 {
+  color: #2e2e2e;
+  font-size: 16px;
+}
+.year_grade {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 10px 0 !important;
+}
+.year, .grade, .role {
+  color: #63666b;
+  font-style: italic;
+  font-size: 14px;
+
+}
+.year_exp, .role {
+  padding: 0 0 8px 0 !important;
+}
+
+.skill_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill_list .skill {
+  padding: 5px !important;
+  margin: 4px 8px 4px 0 !important;
+  font-size: 16px;
+  border: 1px solid #63666b;
+  border-radius: 5px;
+  background: #ececec;
+}
+
+.project_info_space {
+  padding-top: 5px !important;
+}
+.project_link {
+  padding: 2px 0 10px 0 !important;
+}
+.project_link a {
+  color: #4a8abe;
+}
+.project_link i {
+  margin-left: 5px;
+}
+.certificate_info_space {
+  padding: 5px 0 15px 0 !important;
+}
+
+.language_lists {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 0 10px 0;
+}
+.language_list {
+  margin: 10px 20px 10px 0 !important;
+}
+.language_list .language {
+  color: #63666b;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.intrest_list {
+ display: flex;
+ flex-wrap: wrap;
+ padding: 5px 0 10px 0 !important;
+}
+
+.intrest_list .intrest {
+  border: 2px solid #acacac;
+  /* color: #2e2e2e; */
+  color: #202020;
+  padding: 5px 10px !important;
+  margin: 10px 10px 10px 0 !important;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+
+
