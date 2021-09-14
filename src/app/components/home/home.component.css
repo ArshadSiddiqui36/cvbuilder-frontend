@@ -1,0 +1,17 @@
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.resume-sample img {
+  width: 400px;
+  box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.1);
+}
+
+.content {
+  padding-right: 50px;
+}
+.content p {
+  line-height: 40px;
+  word-spacing: 5px;
+}
